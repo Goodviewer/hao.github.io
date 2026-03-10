@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My test page</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 id="dateTitle"></h1>
+    <button>Change user</button>
+    <script>
+      let today = new Date();
+      let year = today.getFullYear();
+      let month = today.getMonth() + 1;
+      let day = today.getDate();
+      document.getElementById("dateTitle").innerText =
+        "今天是" + year + "年" + month + "月" + day + "日";
+    </script>
+    <img src="images/010.jpg" alt="My test image" class="center" />
+
+    <p>这是一个段落</p>
+    <p>我希望让这段文字与下方的文字更加贴近</p>
+    <p>未来三个月实现以下三个目标</p>
+
+    <ul>
+      <li>学会网页制作</li>
+      <li>了解后台</li>
+      <li>搞懂App和小程序的制作</li>
+    </ul>
+
+    <p>working together…</p>
+    <p>
+      我在这里输入了一些无用的文字，如果你想找有用的信息，请连接到<a
+        href="https://www.baidu.com/"
+        >百度</a
+      >
+      点击此处进入<a href="我的简介.html">我的简介</a>
+    </p>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

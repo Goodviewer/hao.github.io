@@ -1,0 +1,32 @@
+html {
+  background-color: #00539f;
+  font-family:
+    "Open Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
+}
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 50px 50px 50px;
+  border: 20px solid black;
+}
+
+h1 {
+  font-size: 200px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+}
+.center {
+  display: block;
+  margin: 0 auto;
+}
+p,
+li {
+  font-size: 50px;
+  line-height: 2;
+  letter-spacing: 10px;
+}
